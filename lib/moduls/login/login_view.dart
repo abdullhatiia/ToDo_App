@@ -14,7 +14,7 @@ class loginview extends StatefulWidget {
 
 class _loginviewState extends State<loginview> {
   var formkey= GlobalKey<FormState>();
-  TextEditingController emailcontroller=TextEditingController();
+  TextEditingController   emailcontroller=TextEditingController();
   TextEditingController passwordcontroller=TextEditingController();
   bool  isobscured=true;
   @override
